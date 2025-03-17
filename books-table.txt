@@ -1,0 +1,31 @@
+Immagina la struttura di una tabella di libri per un negozio online
+
+id 		      - UNSIGNED BIGINT 	- PRIMARY_KEY(UNIQUE, NOT NULL) - AUTO_INCREMENT
+isbn_code 	- VARCHAR(255)		- NULL - UNIQUE
+genre 		  - VARCHAR(255)		- NULL
+author 		- VARCHAR(255)		- NOT NULL - INDEX
+title 		- VARCHAR(255)		- NOT NULL - INDEX
+quantity 	- UNSIGNED SMALLINT	- NULL
+publish_year 	- YEAR			- NULL
+publisher 	- VARCHAR(255)		- NULL
+printed_cop_num - UNSIGNED MEDIUMINT	- NULL
+edition 	- VARCHAR(255)		- NULL
+pages_number 	- UNSIGNED SMALLINT	- NULL
+price_euro 	- DECIMAL(10,2)  	- NULL
+discount_perc	- TINYINT		- NOT NULL - DEFAULT(0)
+formato 	- VARCHAR(255)		- NULL
+cover_type 	- VARCHAR(255)		- NULL
+rating 		- FLOAT(2,1)		- NOT NULL - DEFAULT(0)
+best_sellers 	- TINYINT 		- NOT NULL - DEFAULT(0)
+cover_image 	- VARCHAR(255)		- NULL
+description	- TEXT			- NULL
+language 	- VARCHAR(255)		- NOT NULL - DEFAULT("Italiano")
+weight_kg 	- FLOAT(4,2)		- NULL
+barcode  	- VARCHAR(255)		- NULL - UNIQUE
+visible		- TINYINT		- NOT NULL - DEFAULT(0)
+
+
+
+
+
+
