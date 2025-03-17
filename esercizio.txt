@@ -1,9 +1,13 @@
 Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
 
-modello                 |
+modello                 | VARCHAR(255)
+marca                   | VARCHAR(255)
 anno_immatricolazione   |
 chilometraggio          |
-tipo_carburante         |
+tipo_carburante         | YEAR
+tipo_cambio             | VARCHAR(255)
 potenza                 |
-colore                  |
-prezzo                  |
+cilindrata              |
+colore                  | VARCHAR(255)
+num_propr_precedent     | TINYINT
+prezzo_euro             | 
